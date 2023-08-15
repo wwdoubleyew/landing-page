@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.padded {
+    padding: 0 150px;
+}
+
+.nav-bar {
+    background-color: #1F2937;
+    padding: 16px 150px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-container {
+    background-color: #1F2937;
+    
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    flex: 1;
+}
+
+.hero-maintext {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.image-box {
+    text-align: center;
+
+    flex: 1;
+}
+
+.img-main {
+    height: 150px;
+    width: 150px;
+}
+
+.info-container {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title {
+    margin: 16px 0;
+    text-align: center;
+}
+
+.item-container {
+    width: 900px;
+
+    display: flex;
+    gap: 16px;
+}
+
+.img-items {
+    height: 100px;
+    width: 100px;
+}
+
+.items {
+    text-align: center;
+    width: 200px;
+}
+
+.quote-container {
+    flex: 1;
+
+    background-color: #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    width: 900px;
+}
+
+.quoted {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+
+.call-action {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-action-container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 36px 64px;
+
+    flex: 1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
